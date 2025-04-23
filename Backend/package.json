@@ -1,0 +1,20 @@
+{
+  "name": "s68_nani_capstone_agricontent",
+  "version": "1.0.0",
+  "description": "This is your first repository\r Farmer Support Platform - Project Description:\r Overview:\r The Farmer Support Platform is a web-based application designed to empower farmers by providing real-time information on vegetable, fruit, wheat, and rice prices in major state markets. The platform displays daily price trends, available stock quantities, and connects farmers directly with market associations and community members for direct sales. By eliminating middlemen, farmers can maximize their profits while ensuring fair pricing and transparency in agricultural trade.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.5.0"
+  }
+}
