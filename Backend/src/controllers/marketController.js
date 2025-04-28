@@ -10,6 +10,22 @@ const getMarkets = async (req, res) => {
   }
 };
 
+const createMarket = async (req, res) => {
+    try {
+        const market = new Market(req.body);
+        const saved = await market.save();
+        res.status(201).json(saved);
+    } catch (error) {
+        res.status(500).json({ message: "Error saving market data", error });
+    }
+};
+
 module.exports =  getMarkets ;
+module.exports = createMarket;
+
+
+
+
+
 
 
