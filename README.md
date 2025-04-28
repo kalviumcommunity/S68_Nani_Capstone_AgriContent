@@ -124,6 +124,11 @@ Share the project for user feedback.
 Improve based on suggestions.
 
 
-Here, i created Getrequest for getting data fom database in branch-2.
+Here, i created Getrequest for getting data from database in branch-2.
 
 Here, i created Model for Users using MonogoDb in branch-3.
+
+Here, i created Postrequest for getting data from database in branch-4.
+
+Here, i created Putrequest for getting data from database in branch-5.
+
