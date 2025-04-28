@@ -1,14 +1,16 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
-const marketRoutes = require("./routes/marketRoutes");
+const { route } = require("./src/Routers/marketRoutes");
+const router = require("./src/Routers/marketRoutes");
+
 
 dotenv.config();
 
 const app = express();
 app.use(express.json());
 
-app.use("/api/markets", marketRoutes);
+app.use("/api/markets", router);
 
 const PORT = process.env.PORT || 5000;
 
