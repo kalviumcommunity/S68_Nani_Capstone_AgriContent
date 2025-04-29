@@ -19,11 +19,11 @@ const productSchema = new mongoose.Schema({
     },
     market: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: "Market"
+        ref: "Market",   
+        required: true
     }
 }, { timestamps: true });
 
 module.exports = mongoose.model("Product", productSchema);
-
 
 

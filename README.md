@@ -135,3 +135,10 @@ Here, i created Putrequest for getting data from database in branch-5.
 This is Backend deploy link: "https://s68-nani-capstone-agricontent.onrender.com".
 
 Here, i running the Get, Post, Put, requests in the thenderclind in branch-7.
+
+Here, i created a new model "prodect.js" file schema and i linkded it to "market.js" in branch-8.
+
+
+
+
+
